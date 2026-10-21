@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifikasi — Jaket VUYAGER | MUAJ</title>
+    <link rel="stylesheet" href="Voyagee.css">
+</head>
+<body>
+    <div class="container">
+        <div class="status-badge">TERVERIFIKASI ✅</div>
+
+        <div class="product-image-box">
+            <img src="Voyager.jpeg" alt="Jaket VUYAGER" class="product-img">
+        </div>
+        
+        <div class="product-card">
+            <h1>Jaket VUYAGER</h1>
+            <p class="series">Penjelajah — Series</p>
+            
+            <div class="divider"></div>
+            
+            <div class="info-row">
+                <span class="label">Status:</span>
+                <span class="value asli">✅ Produk Asli MUAJ</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Kategori:</span>
+                <span class="value">Casual Outdoor</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Bahan:</span>
+                <span class="value">Taslan Balon</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Fitur Khusus:</span>
+                <span class="value">Garis Reflektif, Anti Air, 4 Saku</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Warna Resmi:</span>
+                <span class="value">Putih,Hitam,Biru,Jingga,Hijau</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Harga Resmi:</span>
+                <span class="value harga">Rp 489.000</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Diproduksi:</span>
+                <span class="value">Sumedang, Indonesia</span>
+            </div>
+        </div>
+
+        <div class="valid-info">
+            <p>✅ QR Code ini terdaftar resmi untuk produk Jaket VUYAGER</p>
+            <p>📍 Garis reflektif di kedua bahu: lebar 1,5cm, panjang 20cm, posisi lurus ke bawah sejajar lengan</p>
+            <p>📅 Terakhir diverifikasi: <span id="tanggal"></span></p>
+        </div>
+
+        <footer>
+            <p>© 2026 MUAJ — Semua Hak Dilindungi</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('tanggal').textContent = new Date().toLocaleDateString('id-ID', {day:'numeric', month:'long', year:'numeric'});
+    </script>
+</body>
+</html>
+
+
